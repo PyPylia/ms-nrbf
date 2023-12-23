@@ -55,6 +55,10 @@ impl Stream {
                         Record::ArraySinglePrimitive(array),
                     );
                 }
+                Record::BinaryArray(array) => {
+                    println!("{:?}", array);
+                    objects.insert(array.object_id, Record::BinaryArray(array));
+                }
                 other => todo!("{:?}", other),
             }
         }

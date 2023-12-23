@@ -6,8 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.75"
-thiserror = "1.0.48"
-num_enum = "0.7.0"
+anyhow = "1.0.76"
+thiserror = "1.0.51"
+num_enum = "0.7.1"
 chrono = "0.4.31"
-indexmap = "2.0.0"
+indexmap = "2.1.0"
